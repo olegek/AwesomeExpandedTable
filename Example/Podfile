@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'AwesomeExpandedTable_Example' do
+  pod 'AwesomeExpandedTable', :path => '../'
+
+  target 'AwesomeExpandedTable_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

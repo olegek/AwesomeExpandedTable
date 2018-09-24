@@ -47,9 +47,7 @@ open class ExpandTableCell: UITableViewCell {
         arrowImage.widthAnchor.constraint(equalToConstant: 20).isActive = true
         
         let frameworkBundle = Bundle(for: ExpandTableCell.self)
-        let bundleURL = frameworkBundle.resourceURL?.appendingPathComponent("AwesomeExpandedTable.bundle")
-        let resourceBundle = Bundle(url: bundleURL!)
-        let image = UIImage(named: self.expanded ? "up" : "down", in: resourceBundle, compatibleWith: nil)
+        let image = UIImage(named: self.expanded ? "up" : "down", in: frameworkBundle, compatibleWith: nil)
         arrowImage.image = image
         arrowImage.contentMode = .scaleAspectFit
     }

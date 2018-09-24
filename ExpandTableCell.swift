@@ -25,7 +25,7 @@ open class ExpandTableCell: UITableViewCell {
     open var expanded = false
     open var isSelectedCell = false
     
-    init(style: UITableViewCellStyle, reuseIdentifier: String?, lev:Int, expand:Bool, isSel:Bool) {
+    init(style: UITableViewCell.CellStyle, reuseIdentifier: String?, lev:Int, expand:Bool, isSel:Bool) {
         super.init(style: style, reuseIdentifier: reuseIdentifier)
         self.level = lev
         self.expanded = expand

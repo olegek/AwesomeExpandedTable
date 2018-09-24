@@ -1,5 +1,5 @@
 PODS:
-  - AwesomeExpandedTable (0.1.0)
+  - AwesomeExpandedTable (0.1.4)
 
 DEPENDENCIES:
   - AwesomeExpandedTable (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  AwesomeExpandedTable: b0eaa0394fbb60b0c6b53c64407ba1770e1b64e5
+  AwesomeExpandedTable: aff2251ef7268e4727f4de09eddfea1144b70123
 
 PODFILE CHECKSUM: 9bfbd6d17984479e563ad2605527c5d731352535
 

@@ -7,25 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0121B062D91B162EE90B5F3DF0F96CAB /* AwesomeExpandedTable-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D88E80646F29EE4237EE417CD827BCDD /* AwesomeExpandedTable-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1A6EB5BA39E5CBC2A0AB20165D4AE94A /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 0CBB5BE07FD701FEB85DFBA8AD0C71C8 /* README.md */; };
+		1E22715C8E9B9369DCB2190DB0875E2D /* LICENSE in Sources */ = {isa = PBXBuildFile; fileRef = 5E8DA509680F51BDEBBDF167C8E75618 /* LICENSE */; };
 		1E3706C3283E96B605C30B83A0A40BD9 /* Pods-AwesomeExpandedTable_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FD6A14F6E2C1D5CD0D0DC9B6DE7C531 /* Pods-AwesomeExpandedTable_Tests-dummy.m */; };
-		23B84CF46E21A85506E857A7AE689860 /* AwesomeExpandedTable.bundle in Resources */ = {isa = PBXBuildFile; fileRef = DC5DFD8759FBFB6851591AAEF0C70E16 /* AwesomeExpandedTable.bundle */; };
+		1F04B5D153B77D948BF1CC8455BF2286 /* ExpandTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CFE73E97C8E7A56F56836A1465945E6 /* ExpandTableView.swift */; };
 		2AAF4037F3D782E289495893F19D0088 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		2C2F9DEC930258D77D0CECD2AA25C09C /* AwesomeExpandedTable-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BEC7EFB728E1CFD86E8EB71271C5EAFC /* AwesomeExpandedTable-dummy.m */; };
-		35D75CE04E9A6A8C174E126ADFB862E6 /* down.png in Resources */ = {isa = PBXBuildFile; fileRef = 59DCBEC51183633F1C7D84B2A5955148 /* down.png */; };
+		35FD7090B92F2C549C4A8497C6757916 /* AwesomeExpandedTable-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D0A1BEF560841F1C9F4EB7F5DDE8EFD /* AwesomeExpandedTable-dummy.m */; };
 		3C5B090E34BD3F2FA2E9A45A657268A2 /* Pods-AwesomeExpandedTable_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 555F071B588C070CC7D19FA1BD34F6F7 /* Pods-AwesomeExpandedTable_Example-dummy.m */; };
-		420536BF74F111437DCC6A33A84DAA6A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		75168356F9BF8DD0294578676CB48187 /* Pods-AwesomeExpandedTable_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 846A616A1D476F5E4084C4DE815D3F5C /* Pods-AwesomeExpandedTable_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		76ACD63B2851DBF00AC5874A7495B76C /* up.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D2614D80CF945F3D75F82E7582611D2 /* up.png */; };
-		78894C202159013700D038D5 /* up.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D2614D80CF945F3D75F82E7582611D2 /* up.png */; };
-		78894C212159013900D038D5 /* down.png in Resources */ = {isa = PBXBuildFile; fileRef = 59DCBEC51183633F1C7D84B2A5955148 /* down.png */; };
-		78894C252159076000D038D5 /* ExpandModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78894C242159076000D038D5 /* ExpandModel.swift */; };
-		78894C272159078400D038D5 /* ExpandTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78894C262159078400D038D5 /* ExpandTableCell.swift */; };
-		78894C29215907A100D038D5 /* ExpandTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78894C28215907A100D038D5 /* ExpandTableView.swift */; };
-		78894C2C21590A2000D038D5 /* down.png in Resources */ = {isa = PBXBuildFile; fileRef = 78894C2B21590A2000D038D5 /* down.png */; };
-		78894C2E21590A2A00D038D5 /* up.png in Resources */ = {isa = PBXBuildFile; fileRef = 78894C2D21590A2A00D038D5 /* up.png */; };
+		7E4049B905B14D09BB2A4019E98AA652 /* AwesomeExpandedTable.podspec in Sources */ = {isa = PBXBuildFile; fileRef = 57C30B2257B200DA42949697C264EAC7 /* AwesomeExpandedTable.podspec */; };
+		8275D782897CA558686541B0CE324F22 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		897803A5434715E3E3350A50CBE7187C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		A081ED4E85F1C40FA1C003BC2602B2BF /* AwesomeExpandedTable-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F48C465C26A376805F4FB654C482847 /* AwesomeExpandedTable-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8DBC5ADDFCF74615D774F05259F30B5C /* ExpandModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 011F77A7699CE03AB6F3464D7DAE70D7 /* ExpandModel.swift */; };
+		B3E0A9F6140B182E3FEC572DAF7D5085 /* ExpandTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01B9A3E77F00D5505D5FF91FA953A6F6 /* ExpandTableCell.swift */; };
 		CB71D0BE187B5BF6DAEF61E97C28C406 /* Pods-AwesomeExpandedTable_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 86D4C1767226322FC4E1BCF41388F5DD /* Pods-AwesomeExpandedTable_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CBA96A8A3C3114EA6F328E9A25CBD5EF /* up.png in Sources */ = {isa = PBXBuildFile; fileRef = AB2CC083DAE835D1E769310243D55C73 /* up.png */; };
+		DD5682640284580882C74A1A307AF92D /* down.png in Sources */ = {isa = PBXBuildFile; fileRef = 82B787ACCF06F3FC44840CA70457ABD5 /* down.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,15 +31,8 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = F3D1856258A6596AF4322B0D2A7CCE41;
+			remoteGlobalIDString = A07D797DBAD6C526E3A20B47B70513D2;
 			remoteInfo = AwesomeExpandedTable;
-		};
-		56D73DEEC6E68649B6E4DD00282CE042 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = D7DE79F0F7794E19EB57BC3417C807D3;
-			remoteInfo = "AwesomeExpandedTable-AwesomeExpandedTable";
 		};
 		E6E2B4149F5A3340505F9706FE325AD6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -53,64 +44,53 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		01F45E0BB19582665619A36CCF15D217 /* AwesomeExpandedTable-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AwesomeExpandedTable-prefix.pch"; sourceTree = "<group>"; };
+		011F77A7699CE03AB6F3464D7DAE70D7 /* ExpandModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ExpandModel.swift; sourceTree = "<group>"; };
+		01B9A3E77F00D5505D5FF91FA953A6F6 /* ExpandTableCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ExpandTableCell.swift; sourceTree = "<group>"; };
 		045404DBE14AB862F00874C81DA5EB74 /* Pods-AwesomeExpandedTable_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AwesomeExpandedTable_Example-resources.sh"; sourceTree = "<group>"; };
-		0880FBAC04A5D11F10297BE5347E6418 /* AwesomeExpandedTable.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = AwesomeExpandedTable.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		14A2843B276384A21C520B726F5CA178 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1539D0F56369A2329F287888721BD3E8 /* Pods_AwesomeExpandedTable_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AwesomeExpandedTable_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		19244A950E239740B3BA40B177137ECC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		1D2614D80CF945F3D75F82E7582611D2 /* up.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = up.png; path = AwesomeExpandedTable/Assets/up.png; sourceTree = "<group>"; };
-		1F48C465C26A376805F4FB654C482847 /* AwesomeExpandedTable-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AwesomeExpandedTable-umbrella.h"; sourceTree = "<group>"; };
+		0CBB5BE07FD701FEB85DFBA8AD0C71C8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		1D0A1BEF560841F1C9F4EB7F5DDE8EFD /* AwesomeExpandedTable-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AwesomeExpandedTable-dummy.m"; sourceTree = "<group>"; };
 		2B9CA1AD80E495D7C3E0E371A7387FEA /* Pods-AwesomeExpandedTable_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AwesomeExpandedTable_Example-frameworks.sh"; sourceTree = "<group>"; };
+		3561650C446C321DD437A5ADF61FE675 /* Pods_AwesomeExpandedTable_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AwesomeExpandedTable_Example.framework; path = "Pods-AwesomeExpandedTable_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		39492ABFC01752F63243B98BB36DB522 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4B5D33EAFA2D07CB5D2E1ADD3DB3952A /* AwesomeExpandedTable.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AwesomeExpandedTable.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F15EC393F0C55564EC3C4F8A351EE38 /* AwesomeExpandedTable.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AwesomeExpandedTable.modulemap; sourceTree = "<group>"; };
 		4BF2561B0C3E1B5653091362670F45D5 /* Pods-AwesomeExpandedTable_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AwesomeExpandedTable_Tests-resources.sh"; sourceTree = "<group>"; };
-		4C7AD8483FCD7369A39F34339D1AD04B /* AwesomeExpandedTable.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AwesomeExpandedTable.xcconfig; sourceTree = "<group>"; };
+		4D6476DA1DC85E6068B375130A3F1E41 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		555F071B588C070CC7D19FA1BD34F6F7 /* Pods-AwesomeExpandedTable_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AwesomeExpandedTable_Example-dummy.m"; sourceTree = "<group>"; };
-		57BCCA511D2469720845438BCB0497C4 /* AwesomeExpandedTable.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AwesomeExpandedTable.modulemap; sourceTree = "<group>"; };
-		59DCBEC51183633F1C7D84B2A5955148 /* down.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = down.png; path = AwesomeExpandedTable/Assets/down.png; sourceTree = "<group>"; };
+		57C30B2257B200DA42949697C264EAC7 /* AwesomeExpandedTable.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = AwesomeExpandedTable.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		5AD6E38B7EFB7C9E6C26CB73C2F431B0 /* AwesomeExpandedTable-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AwesomeExpandedTable-prefix.pch"; sourceTree = "<group>"; };
 		5DDD2D42E80B94E3872EBC813659BD53 /* Pods-AwesomeExpandedTable_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AwesomeExpandedTable_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5E8DA509680F51BDEBBDF167C8E75618 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		68DC70EE2E09FD116135C5E57853543A /* Pods-AwesomeExpandedTable_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AwesomeExpandedTable_Tests.modulemap"; sourceTree = "<group>"; };
+		69BA1E87FF57147954F4000E8C786941 /* AwesomeExpandedTable.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AwesomeExpandedTable.xcconfig; sourceTree = "<group>"; };
 		6A6B25E5A88C939F520CFBACA41A919D /* Pods-AwesomeExpandedTable_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AwesomeExpandedTable_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		6A6E2408EACCCDD1B5EF2F604FA358A1 /* Pods_AwesomeExpandedTable_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AwesomeExpandedTable_Tests.framework; path = "Pods-AwesomeExpandedTable_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		73746AD0FFB32B5C980BC3B1B12D79F2 /* Pods-AwesomeExpandedTable_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AwesomeExpandedTable_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		78894C242159076000D038D5 /* ExpandModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpandModel.swift; sourceTree = "<group>"; };
-		78894C262159078400D038D5 /* ExpandTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpandTableCell.swift; sourceTree = "<group>"; };
-		78894C28215907A100D038D5 /* ExpandTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpandTableView.swift; sourceTree = "<group>"; };
-		78894C2B21590A2000D038D5 /* down.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = down.png; sourceTree = "<group>"; };
-		78894C2D21590A2A00D038D5 /* up.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = up.png; sourceTree = "<group>"; };
+		7CFE73E97C8E7A56F56836A1465945E6 /* ExpandTableView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ExpandTableView.swift; sourceTree = "<group>"; };
 		7ECC9A2A0807FA5A3F23CF10559D13E7 /* Pods-AwesomeExpandedTable_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AwesomeExpandedTable_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		82B787ACCF06F3FC44840CA70457ABD5 /* down.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = down.png; sourceTree = "<group>"; };
 		846A616A1D476F5E4084C4DE815D3F5C /* Pods-AwesomeExpandedTable_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AwesomeExpandedTable_Example-umbrella.h"; sourceTree = "<group>"; };
 		86D4C1767226322FC4E1BCF41388F5DD /* Pods-AwesomeExpandedTable_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AwesomeExpandedTable_Tests-umbrella.h"; sourceTree = "<group>"; };
-		89FE6A39CA7737ECB8C31B75262AE093 /* Pods_AwesomeExpandedTable_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AwesomeExpandedTable_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		989AF3A03C4BE33CA911D59654FAAFF6 /* Pods-AwesomeExpandedTable_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AwesomeExpandedTable_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		9F0A1EDA679AF6CCC3A9BDC1DF66034D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		9FD6A14F6E2C1D5CD0D0DC9B6DE7C531 /* Pods-AwesomeExpandedTable_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AwesomeExpandedTable_Tests-dummy.m"; sourceTree = "<group>"; };
-		BEC7EFB728E1CFD86E8EB71271C5EAFC /* AwesomeExpandedTable-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AwesomeExpandedTable-dummy.m"; sourceTree = "<group>"; };
+		AB2CC083DAE835D1E769310243D55C73 /* up.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = up.png; sourceTree = "<group>"; };
 		C94AE0E95DBCD6046DB7A2517A13F65B /* Pods-AwesomeExpandedTable_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AwesomeExpandedTable_Example.release.xcconfig"; sourceTree = "<group>"; };
 		C9D3A568C4E53A2589A6C89C651DF460 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DC5DFD8759FBFB6851591AAEF0C70E16 /* AwesomeExpandedTable.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AwesomeExpandedTable.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		D00910E2676741425822A90BE8EEECDC /* AwesomeExpandedTable.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AwesomeExpandedTable.framework; path = AwesomeExpandedTable.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D88E80646F29EE4237EE417CD827BCDD /* AwesomeExpandedTable-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AwesomeExpandedTable-umbrella.h"; sourceTree = "<group>"; };
 		DCCAB657DA9D6388FB8C123832509673 /* Pods-AwesomeExpandedTable_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AwesomeExpandedTable_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		E834D27010FE70C73106B42ED39E03B2 /* Pods-AwesomeExpandedTable_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AwesomeExpandedTable_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		EB77610316A130D7468D79591F6015C0 /* Pods-AwesomeExpandedTable_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AwesomeExpandedTable_Example.modulemap"; sourceTree = "<group>"; };
-		EF141FFE7B18C5C770569648D27CDE23 /* ResourceBundle-AwesomeExpandedTable-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-AwesomeExpandedTable-Info.plist"; sourceTree = "<group>"; };
 		F822CF6689FBFD42FD472A137436B582 /* Pods-AwesomeExpandedTable_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AwesomeExpandedTable_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		0D8ABA9299FA93CCCF097C329623CE25 /* Frameworks */ = {
+		A01F9F4CD53ECB36C956F3B3D33E2002 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		0F77FD4A2FA71C05BD9A6B4FB0BCDC06 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				420536BF74F111437DCC6A33A84DAA6A /* Foundation.framework in Frameworks */,
+				8275D782897CA558686541B0CE324F22 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -133,15 +113,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1478E464776E80B801EA73621930D662 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				59DCBEC51183633F1C7D84B2A5955148 /* down.png */,
-				1D2614D80CF945F3D75F82E7582611D2 /* up.png */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
 		1CBD08BCEC2B9F1E457CC2EF5899648F /* Pods-AwesomeExpandedTable_Tests */ = {
 			isa = PBXGroup;
 			children = (
@@ -178,65 +149,50 @@
 			path = "Target Support Files/Pods-AwesomeExpandedTable_Example";
 			sourceTree = "<group>";
 		};
-		62488C87C1E8FAA675EDC0527DF14458 /* Products */ = {
+		3FB5AB07DF7D2CCDA1CF2941E051ABFE /* AwesomeExpandedTable */ = {
 			isa = PBXGroup;
 			children = (
-				DC5DFD8759FBFB6851591AAEF0C70E16 /* AwesomeExpandedTable.bundle */,
-				4B5D33EAFA2D07CB5D2E1ADD3DB3952A /* AwesomeExpandedTable.framework */,
-				89FE6A39CA7737ECB8C31B75262AE093 /* Pods_AwesomeExpandedTable_Example.framework */,
-				1539D0F56369A2329F287888721BD3E8 /* Pods_AwesomeExpandedTable_Tests.framework */,
+				57C30B2257B200DA42949697C264EAC7 /* AwesomeExpandedTable.podspec */,
+				82B787ACCF06F3FC44840CA70457ABD5 /* down.png */,
+				011F77A7699CE03AB6F3464D7DAE70D7 /* ExpandModel.swift */,
+				01B9A3E77F00D5505D5FF91FA953A6F6 /* ExpandTableCell.swift */,
+				7CFE73E97C8E7A56F56836A1465945E6 /* ExpandTableView.swift */,
+				5E8DA509680F51BDEBBDF167C8E75618 /* LICENSE */,
+				0CBB5BE07FD701FEB85DFBA8AD0C71C8 /* README.md */,
+				AB2CC083DAE835D1E769310243D55C73 /* up.png */,
+				A52B03D5346BABDDF76EE8D5A8F1852F /* Pod */,
+				E740956658410DCBD2B73670819639B1 /* Support Files */,
 			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		78894C232159074F00D038D5 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				78894C242159076000D038D5 /* ExpandModel.swift */,
-				78894C262159078400D038D5 /* ExpandTableCell.swift */,
-				78894C28215907A100D038D5 /* ExpandTableView.swift */,
-			);
-			name = Classes;
-			sourceTree = "<group>";
-		};
-		78894C2A21590A1000D038D5 /* Images */ = {
-			isa = PBXGroup;
-			children = (
-				78894C2D21590A2A00D038D5 /* up.png */,
-				78894C2B21590A2000D038D5 /* down.png */,
-			);
-			name = Images;
+			name = AwesomeExpandedTable;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				B11B45FEDCCAE59547EA429B3E708DA4 /* Development Pods */,
+				D13A0CFB9888336AE91624D295C45AFB /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				62488C87C1E8FAA675EDC0527DF14458 /* Products */,
+				A7E43D98EB96A5B6A3D231B3336EF7D6 /* Products */,
 				F200C69B16ADF8E7C256774C3A897823 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		AE0771D7AADF6E9D1B4E405DA201AB82 /* Pod */ = {
+		A52B03D5346BABDDF76EE8D5A8F1852F /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				78894C2A21590A1000D038D5 /* Images */,
-				78894C232159074F00D038D5 /* Classes */,
-				0880FBAC04A5D11F10297BE5347E6418 /* AwesomeExpandedTable.podspec */,
-				9F0A1EDA679AF6CCC3A9BDC1DF66034D /* LICENSE */,
-				19244A950E239740B3BA40B177137ECC /* README.md */,
 			);
 			name = Pod;
 			sourceTree = "<group>";
 		};
-		B11B45FEDCCAE59547EA429B3E708DA4 /* Development Pods */ = {
+		A7E43D98EB96A5B6A3D231B3336EF7D6 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DBC4AA49B67DC82F3940C7564A0942DD /* AwesomeExpandedTable */,
+				D00910E2676741425822A90BE8EEECDC /* AwesomeExpandedTable.framework */,
+				3561650C446C321DD437A5ADF61FE675 /* Pods_AwesomeExpandedTable_Example.framework */,
+				6A6E2408EACCCDD1B5EF2F604FA358A1 /* Pods_AwesomeExpandedTable_Tests.framework */,
 			);
-			name = "Development Pods";
+			name = Products;
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -247,19 +203,12 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		C98C0CE4CCD6B5DE1542073439EF2CB2 /* Support Files */ = {
+		D13A0CFB9888336AE91624D295C45AFB /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				57BCCA511D2469720845438BCB0497C4 /* AwesomeExpandedTable.modulemap */,
-				4C7AD8483FCD7369A39F34339D1AD04B /* AwesomeExpandedTable.xcconfig */,
-				BEC7EFB728E1CFD86E8EB71271C5EAFC /* AwesomeExpandedTable-dummy.m */,
-				01F45E0BB19582665619A36CCF15D217 /* AwesomeExpandedTable-prefix.pch */,
-				1F48C465C26A376805F4FB654C482847 /* AwesomeExpandedTable-umbrella.h */,
-				14A2843B276384A21C520B726F5CA178 /* Info.plist */,
-				EF141FFE7B18C5C770569648D27CDE23 /* ResourceBundle-AwesomeExpandedTable-Info.plist */,
+				3FB5AB07DF7D2CCDA1CF2941E051ABFE /* AwesomeExpandedTable */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/AwesomeExpandedTable";
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
@@ -270,15 +219,18 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		DBC4AA49B67DC82F3940C7564A0942DD /* AwesomeExpandedTable */ = {
+		E740956658410DCBD2B73670819639B1 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				AE0771D7AADF6E9D1B4E405DA201AB82 /* Pod */,
-				1478E464776E80B801EA73621930D662 /* Resources */,
-				C98C0CE4CCD6B5DE1542073439EF2CB2 /* Support Files */,
+				3F15EC393F0C55564EC3C4F8A351EE38 /* AwesomeExpandedTable.modulemap */,
+				69BA1E87FF57147954F4000E8C786941 /* AwesomeExpandedTable.xcconfig */,
+				1D0A1BEF560841F1C9F4EB7F5DDE8EFD /* AwesomeExpandedTable-dummy.m */,
+				5AD6E38B7EFB7C9E6C26CB73C2F431B0 /* AwesomeExpandedTable-prefix.pch */,
+				D88E80646F29EE4237EE417CD827BCDD /* AwesomeExpandedTable-umbrella.h */,
+				4D6476DA1DC85E6068B375130A3F1E41 /* Info.plist */,
 			);
-			name = AwesomeExpandedTable;
-			path = ../..;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/AwesomeExpandedTable";
 			sourceTree = "<group>";
 		};
 		F200C69B16ADF8E7C256774C3A897823 /* Targets Support Files */ = {
@@ -309,11 +261,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8A1F174CC75E3546E1343DF170406BEC /* Headers */ = {
+		DDF502F51E8BC20AAC7ADD6A54E07433 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A081ED4E85F1C40FA1C003BC2602B2BF /* AwesomeExpandedTable-umbrella.h in Headers */,
+				0121B062D91B162EE90B5F3DF0F96CAB /* AwesomeExpandedTable-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -335,7 +287,24 @@
 			);
 			name = "Pods-AwesomeExpandedTable_Example";
 			productName = "Pods-AwesomeExpandedTable_Example";
-			productReference = 89FE6A39CA7737ECB8C31B75262AE093 /* Pods_AwesomeExpandedTable_Example.framework */;
+			productReference = 3561650C446C321DD437A5ADF61FE675 /* Pods_AwesomeExpandedTable_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A07D797DBAD6C526E3A20B47B70513D2 /* AwesomeExpandedTable */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A91FB1304AE0A3833EC68647257791E8 /* Build configuration list for PBXNativeTarget "AwesomeExpandedTable" */;
+			buildPhases = (
+				2E6B9876F321E2B0EA8561254A53DD55 /* Sources */,
+				A01F9F4CD53ECB36C956F3B3D33E2002 /* Frameworks */,
+				DDF502F51E8BC20AAC7ADD6A54E07433 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AwesomeExpandedTable;
+			productName = AwesomeExpandedTable;
+			productReference = D00910E2676741425822A90BE8EEECDC /* AwesomeExpandedTable.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		ACB5EC8C401FF7CC92DD86F0911AF163 /* Pods-AwesomeExpandedTable_Tests */ = {
@@ -353,43 +322,7 @@
 			);
 			name = "Pods-AwesomeExpandedTable_Tests";
 			productName = "Pods-AwesomeExpandedTable_Tests";
-			productReference = 1539D0F56369A2329F287888721BD3E8 /* Pods_AwesomeExpandedTable_Tests.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		D7DE79F0F7794E19EB57BC3417C807D3 /* AwesomeExpandedTable-AwesomeExpandedTable */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = CFDE387A3B498C3644225B8A59A7D57B /* Build configuration list for PBXNativeTarget "AwesomeExpandedTable-AwesomeExpandedTable" */;
-			buildPhases = (
-				B9B25D88DD040C68C629C5308448C92E /* Sources */,
-				0D8ABA9299FA93CCCF097C329623CE25 /* Frameworks */,
-				72EC8EC831403A6CE6B6C3D61377D408 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "AwesomeExpandedTable-AwesomeExpandedTable";
-			productName = "AwesomeExpandedTable-AwesomeExpandedTable";
-			productReference = DC5DFD8759FBFB6851591AAEF0C70E16 /* AwesomeExpandedTable.bundle */;
-			productType = "com.apple.product-type.bundle";
-		};
-		F3D1856258A6596AF4322B0D2A7CCE41 /* AwesomeExpandedTable */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 874F917CCD36517237C0234869C8DF0D /* Build configuration list for PBXNativeTarget "AwesomeExpandedTable" */;
-			buildPhases = (
-				450112C976D301DDF74DB6077D7CD24C /* Sources */,
-				0F77FD4A2FA71C05BD9A6B4FB0BCDC06 /* Frameworks */,
-				5C444E57ACBA7DB0B134877207553A0E /* Resources */,
-				8A1F174CC75E3546E1343DF170406BEC /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				B885DF6CBCFE5318ABFEC48075941CF9 /* PBXTargetDependency */,
-			);
-			name = AwesomeExpandedTable;
-			productName = AwesomeExpandedTable;
-			productReference = 4B5D33EAFA2D07CB5D2E1ADD3DB3952A /* AwesomeExpandedTable.framework */;
+			productReference = 6A6E2408EACCCDD1B5EF2F604FA358A1 /* Pods_AwesomeExpandedTable_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -400,11 +333,6 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0930;
 				LastUpgradeCheck = 0930;
-				TargetAttributes = {
-					F3D1856258A6596AF4322B0D2A7CCE41 = {
-						LastSwiftMigration = 1000;
-					};
-				};
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -414,51 +342,31 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 62488C87C1E8FAA675EDC0527DF14458 /* Products */;
+			productRefGroup = A7E43D98EB96A5B6A3D231B3336EF7D6 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F3D1856258A6596AF4322B0D2A7CCE41 /* AwesomeExpandedTable */,
-				D7DE79F0F7794E19EB57BC3417C807D3 /* AwesomeExpandedTable-AwesomeExpandedTable */,
+				A07D797DBAD6C526E3A20B47B70513D2 /* AwesomeExpandedTable */,
 				8C39DD9CA11FC21B6CC1546457471CFE /* Pods-AwesomeExpandedTable_Example */,
 				ACB5EC8C401FF7CC92DD86F0911AF163 /* Pods-AwesomeExpandedTable_Tests */,
 			);
 		};
 /* End PBXProject section */
 
-/* Begin PBXResourcesBuildPhase section */
-		5C444E57ACBA7DB0B134877207553A0E /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				78894C2E21590A2A00D038D5 /* up.png in Resources */,
-				78894C202159013700D038D5 /* up.png in Resources */,
-				23B84CF46E21A85506E857A7AE689860 /* AwesomeExpandedTable.bundle in Resources */,
-				78894C212159013900D038D5 /* down.png in Resources */,
-				78894C2C21590A2000D038D5 /* down.png in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		72EC8EC831403A6CE6B6C3D61377D408 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				35D75CE04E9A6A8C174E126ADFB862E6 /* down.png in Resources */,
-				76ACD63B2851DBF00AC5874A7495B76C /* up.png in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXResourcesBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
-		450112C976D301DDF74DB6077D7CD24C /* Sources */ = {
+		2E6B9876F321E2B0EA8561254A53DD55 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				78894C272159078400D038D5 /* ExpandTableCell.swift in Sources */,
-				2C2F9DEC930258D77D0CECD2AA25C09C /* AwesomeExpandedTable-dummy.m in Sources */,
-				78894C252159076000D038D5 /* ExpandModel.swift in Sources */,
-				78894C29215907A100D038D5 /* ExpandTableView.swift in Sources */,
+				35FD7090B92F2C549C4A8497C6757916 /* AwesomeExpandedTable-dummy.m in Sources */,
+				7E4049B905B14D09BB2A4019E98AA652 /* AwesomeExpandedTable.podspec in Sources */,
+				DD5682640284580882C74A1A307AF92D /* down.png in Sources */,
+				8DBC5ADDFCF74615D774F05259F30B5C /* ExpandModel.swift in Sources */,
+				B3E0A9F6140B182E3FEC572DAF7D5085 /* ExpandTableCell.swift in Sources */,
+				1F04B5D153B77D948BF1CC8455BF2286 /* ExpandTableView.swift in Sources */,
+				1E22715C8E9B9369DCB2190DB0875E2D /* LICENSE in Sources */,
+				1A6EB5BA39E5CBC2A0AB20165D4AE94A /* README.md in Sources */,
+				CBA96A8A3C3114EA6F328E9A25CBD5EF /* up.png in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -467,13 +375,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				3C5B090E34BD3F2FA2E9A45A657268A2 /* Pods-AwesomeExpandedTable_Example-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B9B25D88DD040C68C629C5308448C92E /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -497,14 +398,8 @@
 		2F7AC459519B3B0B7BC03E6250EEB68D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = AwesomeExpandedTable;
-			target = F3D1856258A6596AF4322B0D2A7CCE41 /* AwesomeExpandedTable */;
+			target = A07D797DBAD6C526E3A20B47B70513D2 /* AwesomeExpandedTable */;
 			targetProxy = 4C7A34477C972CD7F260EC6006E5D15E /* PBXContainerItemProxy */;
-		};
-		B885DF6CBCFE5318ABFEC48075941CF9 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "AwesomeExpandedTable-AwesomeExpandedTable";
-			target = D7DE79F0F7794E19EB57BC3417C807D3 /* AwesomeExpandedTable-AwesomeExpandedTable */;
-			targetProxy = 56D73DEEC6E68649B6E4DD00282CE042 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -611,6 +506,39 @@
 			};
 			name = Debug;
 		};
+		702C6CAA898489D3F057D9352C84C995 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 69BA1E87FF57147954F4000E8C786941 /* AwesomeExpandedTable.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AwesomeExpandedTable/AwesomeExpandedTable-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AwesomeExpandedTable/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AwesomeExpandedTable/AwesomeExpandedTable.modulemap";
+				PRODUCT_MODULE_NAME = AwesomeExpandedTable;
+				PRODUCT_NAME = AwesomeExpandedTable;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -674,39 +602,6 @@
 			};
 			name = Debug;
 		};
-		8DD94CB56CA1EBC0F6166CD78556A6A5 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4C7AD8483FCD7369A39F34339D1AD04B /* AwesomeExpandedTable.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/AwesomeExpandedTable/AwesomeExpandedTable-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/AwesomeExpandedTable/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/AwesomeExpandedTable/AwesomeExpandedTable.modulemap";
-				PRODUCT_MODULE_NAME = AwesomeExpandedTable;
-				PRODUCT_NAME = AwesomeExpandedTable;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		B42B54097A876E8A982CBF5DAA91B1AB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -765,22 +660,6 @@
 			};
 			name = Release;
 		};
-		C36961D7D014C3921B51F67C3F068EC8 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4C7AD8483FCD7369A39F34339D1AD04B /* AwesomeExpandedTable.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/AwesomeExpandedTable";
-				INFOPLIST_FILE = "Target Support Files/AwesomeExpandedTable/ResourceBundle-AwesomeExpandedTable-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				PRODUCT_NAME = AwesomeExpandedTable;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
 		CC539C87B3702592A5C8B74E376B8EA1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C94AE0E95DBCD6046DB7A2517A13F65B /* Pods-AwesomeExpandedTable_Example.release.xcconfig */;
@@ -816,11 +695,10 @@
 			};
 			name = Release;
 		};
-		DC3C6761F5F0915A02C3BBD026EE2A0B /* Release */ = {
+		E790F1EBE94460E7A47D66CA44ED7E05 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4C7AD8483FCD7369A39F34339D1AD04B /* AwesomeExpandedTable.xcconfig */;
+			baseConfigurationReference = 69BA1E87FF57147954F4000E8C786941 /* AwesomeExpandedTable.xcconfig */;
 			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -841,30 +719,13 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.0;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
-		};
-		F2C14D8E9E90060D2643C01FD6F7807B /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4C7AD8483FCD7369A39F34339D1AD04B /* AwesomeExpandedTable.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/AwesomeExpandedTable";
-				INFOPLIST_FILE = "Target Support Files/AwesomeExpandedTable/ResourceBundle-AwesomeExpandedTable-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				PRODUCT_NAME = AwesomeExpandedTable;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
+			name = Debug;
 		};
 /* End XCBuildConfiguration section */
 
@@ -887,20 +748,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		874F917CCD36517237C0234869C8DF0D /* Build configuration list for PBXNativeTarget "AwesomeExpandedTable" */ = {
+		A91FB1304AE0A3833EC68647257791E8 /* Build configuration list for PBXNativeTarget "AwesomeExpandedTable" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8DD94CB56CA1EBC0F6166CD78556A6A5 /* Debug */,
-				DC3C6761F5F0915A02C3BBD026EE2A0B /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		CFDE387A3B498C3644225B8A59A7D57B /* Build configuration list for PBXNativeTarget "AwesomeExpandedTable-AwesomeExpandedTable" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				C36961D7D014C3921B51F67C3F068EC8 /* Debug */,
-				F2C14D8E9E90060D2643C01FD6F7807B /* Release */,
+				E790F1EBE94460E7A47D66CA44ED7E05 /* Debug */,
+				702C6CAA898489D3F057D9352C84C995 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

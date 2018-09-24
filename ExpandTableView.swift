@@ -62,7 +62,7 @@ open class ExpandTableView: UITableView, UITableViewDelegate, UITableViewDataSou
     
     public func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let model = self.model.flattenElements()[indexPath.row + 1]
-        let cell = ExpandTableCell(style: UITableViewCellStyle.default, reuseIdentifier: "cell", lev: model.getLevels() , expand: (model.inclusive), isSel: (model.isSelected))
+        let cell = ExpandTableCell(style: UITableViewCell.CellStyle.default, reuseIdentifier: "cell", lev: model.getLevels() , expand: (model.inclusive), isSel: (model.isSelected))
         cell.valueLabel.text = model.value
         cell.model = model
         cell.arrowImage.isHidden = model.children.count == 0

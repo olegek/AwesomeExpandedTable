@@ -13,7 +13,7 @@ public protocol ExpandTableViewDelegate {
 }
 
 open class ExpandTableView: UITableView, UITableViewDelegate, UITableViewDataSource, CellSelectedDelegate {
-
+    
     public var expandDelegate:ExpandTableViewDelegate?
     
     public var model = ExpandModel("ROOT", isInclusive: true)
@@ -91,5 +91,5 @@ open class ExpandTableView: UITableView, UITableViewDelegate, UITableViewDataSou
             }
         }
     }
-
+    
 }

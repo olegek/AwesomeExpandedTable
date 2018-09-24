@@ -13,7 +13,7 @@ public protocol CellSelectedDelegate {
 }
 
 open class ExpandTableCell: UITableViewCell {
-
+    
     public var delegate:CellSelectedDelegate?
     
     public let valueLabel = UILabel()
@@ -61,11 +61,11 @@ open class ExpandTableCell: UITableViewCell {
     override open func awakeFromNib() {
         super.awakeFromNib()
     }
-
+    
     override open func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
         self.isSelectedCell = !self.isSelected
         delegate?.cellChecked(self.isSelectedCell, andCell: self)
     }
-
+    
 }

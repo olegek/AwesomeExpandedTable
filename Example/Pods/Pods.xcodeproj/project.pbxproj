@@ -62,8 +62,8 @@
 		1F48C465C26A376805F4FB654C482847 /* AwesomeExpandedTable-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AwesomeExpandedTable-umbrella.h"; sourceTree = "<group>"; };
 		2B9CA1AD80E495D7C3E0E371A7387FEA /* Pods-AwesomeExpandedTable_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AwesomeExpandedTable_Example-frameworks.sh"; sourceTree = "<group>"; };
 		39492ABFC01752F63243B98BB36DB522 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3A163A39E15E0783FB1F30764243AA6C /* ExpandTableView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExpandTableView.swift; path = AwesomeExpandedTable/Classes/ExpandTableView.swift; sourceTree = "<group>"; };
-		446F4B4F67425F1ED6E756CF0F4869EB /* ExpandModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExpandModel.swift; path = AwesomeExpandedTable/Classes/ExpandModel.swift; sourceTree = "<group>"; };
+		3A163A39E15E0783FB1F30764243AA6C /* ExpandTableView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ExpandTableView.swift; sourceTree = "<group>"; };
+		446F4B4F67425F1ED6E756CF0F4869EB /* ExpandModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ExpandModel.swift; sourceTree = "<group>"; };
 		4B5D33EAFA2D07CB5D2E1ADD3DB3952A /* AwesomeExpandedTable.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AwesomeExpandedTable.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4BF2561B0C3E1B5653091362670F45D5 /* Pods-AwesomeExpandedTable_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AwesomeExpandedTable_Tests-resources.sh"; sourceTree = "<group>"; };
 		4C7AD8483FCD7369A39F34339D1AD04B /* AwesomeExpandedTable.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AwesomeExpandedTable.xcconfig; sourceTree = "<group>"; };
@@ -83,7 +83,7 @@
 		989AF3A03C4BE33CA911D59654FAAFF6 /* Pods-AwesomeExpandedTable_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AwesomeExpandedTable_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		9F0A1EDA679AF6CCC3A9BDC1DF66034D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		9FD6A14F6E2C1D5CD0D0DC9B6DE7C531 /* Pods-AwesomeExpandedTable_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AwesomeExpandedTable_Tests-dummy.m"; sourceTree = "<group>"; };
-		AFC1A0214A367905019DAF7ECD576E46 /* ExpandTableCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExpandTableCell.swift; path = AwesomeExpandedTable/Classes/ExpandTableCell.swift; sourceTree = "<group>"; };
+		AFC1A0214A367905019DAF7ECD576E46 /* ExpandTableCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ExpandTableCell.swift; sourceTree = "<group>"; };
 		BEC7EFB728E1CFD86E8EB71271C5EAFC /* AwesomeExpandedTable-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AwesomeExpandedTable-dummy.m"; sourceTree = "<group>"; };
 		C94AE0E95DBCD6046DB7A2517A13F65B /* Pods-AwesomeExpandedTable_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AwesomeExpandedTable_Example.release.xcconfig"; sourceTree = "<group>"; };
 		C9D3A568C4E53A2589A6C89C651DF460 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -186,6 +186,16 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		78894C22215906B500D038D5 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				446F4B4F67425F1ED6E756CF0F4869EB /* ExpandModel.swift */,
+				AFC1A0214A367905019DAF7ECD576E46 /* ExpandTableCell.swift */,
+				3A163A39E15E0783FB1F30764243AA6C /* ExpandTableView.swift */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
@@ -200,6 +210,7 @@
 		AE0771D7AADF6E9D1B4E405DA201AB82 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
+				78894C22215906B500D038D5 /* Classes */,
 				0880FBAC04A5D11F10297BE5347E6418 /* AwesomeExpandedTable.podspec */,
 				9F0A1EDA679AF6CCC3A9BDC1DF66034D /* LICENSE */,
 				19244A950E239740B3BA40B177137ECC /* README.md */,
@@ -249,9 +260,6 @@
 		DBC4AA49B67DC82F3940C7564A0942DD /* AwesomeExpandedTable */ = {
 			isa = PBXGroup;
 			children = (
-				446F4B4F67425F1ED6E756CF0F4869EB /* ExpandModel.swift */,
-				AFC1A0214A367905019DAF7ECD576E46 /* ExpandTableCell.swift */,
-				3A163A39E15E0783FB1F30764243AA6C /* ExpandTableView.swift */,
 				AE0771D7AADF6E9D1B4E405DA201AB82 /* Pod */,
 				1478E464776E80B801EA73621930D662 /* Resources */,
 				C98C0CE4CCD6B5DE1542073439EF2CB2 /* Support Files */,

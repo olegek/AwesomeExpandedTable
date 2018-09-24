@@ -1,0 +1,6 @@
+framework module Pods_AwesomeExpandedTable_Example {
+  umbrella header "Pods-AwesomeExpandedTable_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

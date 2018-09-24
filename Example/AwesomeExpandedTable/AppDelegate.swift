@@ -2,8 +2,8 @@
 //  AppDelegate.swift
 //  AwesomeExpandedTable
 //
-//  Created by bgwasja on 09/20/2018.
-//  Copyright (c) 2018 bgwasja. All rights reserved.
+//  Created by olegek on 09/20/2018.
+//  Copyright (c) 2018 olegek. All rights reserved.
 //
 
 import UIKit

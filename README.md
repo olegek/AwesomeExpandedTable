@@ -1,6 +1,6 @@
 # AwesomeExpandedTable
 
-[![CI Status](https://img.shields.io/travis/bgwasja/AwesomeExpandedTable.svg?style=flat)](https://travis-ci.org/bgwasja/AwesomeExpandedTable)
+[![CI Status](https://img.shields.io/travis/olegek/AwesomeExpandedTable.svg?style=flat)](https://travis-ci.org/olegek/AwesomeExpandedTable)
 [![Version](https://img.shields.io/cocoapods/v/AwesomeExpandedTable.svg?style=flat)](https://cocoapods.org/pods/AwesomeExpandedTable)
 [![License](https://img.shields.io/cocoapods/l/AwesomeExpandedTable.svg?style=flat)](https://cocoapods.org/pods/AwesomeExpandedTable)
 [![Platform](https://img.shields.io/cocoapods/p/AwesomeExpandedTable.svg?style=flat)](https://cocoapods.org/pods/AwesomeExpandedTable)
@@ -22,7 +22,7 @@ pod 'AwesomeExpandedTable'
 
 ## Author
 
-bgwasja, olegmytsouda@mail.ru
+olegek, olegmytsouda@mail.ru
 
 ## License
 

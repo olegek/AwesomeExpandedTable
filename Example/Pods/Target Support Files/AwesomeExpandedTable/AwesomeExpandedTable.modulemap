@@ -1,0 +1,6 @@
+framework module AwesomeExpandedTable {
+  umbrella header "AwesomeExpandedTable-umbrella.h"
+
+  export *
+  module * { export * }
+}

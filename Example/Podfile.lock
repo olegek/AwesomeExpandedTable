@@ -1,0 +1,16 @@
+PODS:
+  - AwesomeExpandedTable (0.1.0)
+
+DEPENDENCIES:
+  - AwesomeExpandedTable (from `../`)
+
+EXTERNAL SOURCES:
+  AwesomeExpandedTable:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AwesomeExpandedTable: b0eaa0394fbb60b0c6b53c64407ba1770e1b64e5
+
+PODFILE CHECKSUM: 9bfbd6d17984479e563ad2605527c5d731352535
+
+COCOAPODS: 1.5.0

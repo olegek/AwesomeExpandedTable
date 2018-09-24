@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'AwesomeExpandedTable'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of AwesomeExpandedTable.'
+  s.version          = '0.1.1'
+  s.summary          = 'Just a table for infinity expanded cell'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -17,23 +17,23 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
+  s.description      =  'For usage need only create child from pods files'
 
-  s.homepage         = 'https://github.com/bgwasja/AwesomeExpandedTable'
+  s.homepage         = 'https://github.com/olegek/AwesomeExpandedTable'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'bgwasja' => 'olegmytsouda@mail.ru' }
-  s.source           = { :git => 'https://github.com/bgwasja/AwesomeExpandedTable.git', :tag => s.version.to_s }
+  s.author           = { 'olegek' => 'olegmytsouda@mail.ru' }
+  s.source           = { :git => 'https://github.com/olegek/AwesomeExpandedTable.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '9.0'
 
+  s.swift_version = '4.0'
+  
   s.source_files = 'AwesomeExpandedTable/Classes/**/*'
   
   # s.resource_bundles = {
-  #   'AwesomeExpandedTable' => ['AwesomeExpandedTable/Assets/*.png']
+  #   'AwesomeExpandedTable' => ['AwesomeExpandedTable/Assets/*']
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'

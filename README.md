@@ -1,4 +1,4 @@
-# Welcome to the AwesomeExpandedTable# 
+# Welcome to the AwesomeExpandedTable
 
 ## Example
 
@@ -86,4 +86,4 @@ You can just download it or follow this step's
 
 ## Author
 
-Olegek Legek, MOVA.io, olegmytsouda@gmail.com
+Olegek Legek, <a href="http://MOVA.io">MOVA.io</a>, olegmytsouda@gmail.com

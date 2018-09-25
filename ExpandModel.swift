@@ -18,6 +18,9 @@ open class ExpandModel {
     var inclusive = false
     var isSelected = false
     
+    var expandedImage:UIImage?
+    var nonExpandedImage:UIImage?
+    
     var parent: ExpandModel?
     var children: [ExpandModel] = []
     var expandedElement: [ExpandModel] = []
@@ -87,6 +90,14 @@ open class ExpandModel {
             
             if let parentId = dict["parent_id"] as? Int {
                 model.parentId = parentId
+            }
+            
+            if let exp = dict["customExImage"] as? String {
+                model.expandedImage = UIImage(named: exp)
+            }
+            
+            if let nonExp = dict["customNonExImage"] as? String {
+                model.nonExpandedImage = UIImage(named: nonExp)
             }
             
             return model

@@ -25,32 +25,32 @@ class ViewController: UIViewController, ExpandTableViewDelegate {
                 // first drop
                 [["name":"Value1", "parent_id": 1, "category_id":1, "categories":
                     // second
-                    [["name":"Value1 child1", "category_id":2, "parent_id":1, "categories":[
+                    [["name":"Value1 child1", "category_id":2, "parent_id":1, "customExImage":"s2U", "customNonExImage":"s2D", "categories":[
                         //third
                         ["name":"Value1 child1 child1", "category_id":2, "parent_id":1],
                         ["name":"Value1 child1 child2", "category_id":2, "parent_id":1],
                         ["name":"Value1 child1 child3", "category_id":2, "parent_id":2]]],
                      ["name":"Value1 child2", "category_id":3, "parent_id":1]]],
                  // first
-                    ["name":"Value2", "category_id":5, "parent_id":2, "categories":
+                    ["name":"Value2", "category_id":2, "parent_id":2, "categories":
                         // second
-                        [["name":"Value2 child1", "category_id":6, "parent_id":2],
-                         ["name":"Value2 child2", "category_id":7, "parent_id":2, "categories":[
+                        [["name":"Value2 child1", "category_id":2, "parent_id":2],
+                         ["name":"Value2 child2", "category_id":2, "parent_id":2, "categories":[
                             //third
-                            ["name":"Value2 child2 chidl1", "category_id":6, "parent_id":2],
-                            ["name":"Value2 child2 chidl2", "category_id":6, "parent_id":2, "categories":[
+                            ["name":"Value2 child2 chidl1", "category_id":3, "parent_id":2],
+                            ["name":"Value2 child2 chidl2", "category_id":3, "customExImage":"test", "customNonExImage":"test", "parent_id":2, "categories":[
                                 //four
                                 ["name":"Value2 child2 chidl2 child 1", "category_id":2, "parent_id":2],
                                 ["name":"Value2 child2 chidl2 child 2", "category_id":2, "parent_id":2],
                                 ["name":"Value2 child2 chidl2 child 3", "category_id":2, "parent_id":2]]],
-                            ["name":"Value2 child3", "category_id":6, "parent_id":2]]],
-                         ["name":"Value2 child3", "category_id":7, "parent_id":2]]]
+                            ["name":"Value2 child3", "category_id":3, "parent_id":2]]],
+                         ["name":"Value2 child3", "category_id":3, "parent_id":2]]]
             ]]
         return parentValue
     }
     
     func addTableView() {
-        let table = ExpandTableView.init(generateTestValue(), rowHeight: 60, font: UIFont.systemFont(ofSize: 16), textColor: .red, hide: false, isArrowFromLeft: true)
+        let table = ExpandTableView.init(generateTestValue(), rowHeight: 40, font: UIFont.systemFont(ofSize: 16), textColor: .gray, hide: false, isArrowFromLeft: false, imagesArray:[UIImage(named: "sU")!, UIImage(named: "sD")!])
         self.view.addSubview(table)
         table.translatesAutoresizingMaskIntoConstraints = false
         table.topAnchor.constraint(equalTo: self.view.topAnchor, constant: 0).isActive = true

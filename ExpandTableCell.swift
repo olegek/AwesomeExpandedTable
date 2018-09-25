@@ -31,12 +31,15 @@ open class ExpandTableCell: UITableViewCell {
         self.expanded = expand
         self.isSelectedCell = isSel
         
+        let margin = leftSide ? 40 : 16
+        
         self.contentView.addSubview(valueLabel)
         valueLabel.translatesAutoresizingMaskIntoConstraints = false
-        valueLabel.leftAnchor.constraint(equalTo: self.contentView.leftAnchor, constant: CGFloat(16 * lev)).isActive = true
+        valueLabel.leftAnchor.constraint(equalTo: self.contentView.leftAnchor, constant: CGFloat(margin * lev)).isActive = true
         valueLabel.topAnchor.constraint(equalTo: self.contentView.topAnchor, constant: 0).isActive = true
         valueLabel.bottomAnchor.constraint(equalTo: self.contentView.bottomAnchor, constant: 0).isActive = true
-        valueLabel.rightAnchor.constraint(equalTo: self.contentView.rightAnchor, constant: -100).isActive = true
+        valueLabel.rightAnchor.constraint(equalTo: self.contentView.rightAnchor, constant: -40).isActive = true
+        valueLabel.numberOfLines = 0
         
         self.contentView.addSubview(arrowImage)
         arrowImage.translatesAutoresizingMaskIntoConstraints = false
@@ -45,14 +48,10 @@ open class ExpandTableCell: UITableViewCell {
         arrowImage.widthAnchor.constraint(equalToConstant: 20).isActive = true
         
         if leftSide {
-            arrowImage.leftAnchor.constraint(equalTo: self.contentView.rightAnchor, constant: 16).isActive = true
+            arrowImage.rightAnchor.constraint(equalTo: valueLabel.leftAnchor, constant: -8).isActive = true
         } else {
             arrowImage.rightAnchor.constraint(equalTo: self.contentView.rightAnchor, constant: -16).isActive = true
         }
-        
-        let frameworkBundle = Bundle(for: ExpandTableCell.self)
-        let image = UIImage(named: self.expanded ? "up" : "down", in: frameworkBundle, compatibleWith: nil)
-        arrowImage.image = image
         arrowImage.contentMode = .scaleAspectFit
     }
     

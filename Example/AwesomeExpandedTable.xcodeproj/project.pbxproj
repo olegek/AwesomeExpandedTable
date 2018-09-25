@@ -15,6 +15,11 @@
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
+		78074385215A5A7400711B57 /* sU.png in Resources */ = {isa = PBXBuildFile; fileRef = 78074383215A5A7400711B57 /* sU.png */; };
+		78074386215A5A7400711B57 /* sD.png in Resources */ = {isa = PBXBuildFile; fileRef = 78074384215A5A7400711B57 /* sD.png */; };
+		7807438A215A5E0900711B57 /* s2D.png in Resources */ = {isa = PBXBuildFile; fileRef = 78074387215A5E0900711B57 /* s2D.png */; };
+		7807438B215A5E0900711B57 /* s2U.png in Resources */ = {isa = PBXBuildFile; fileRef = 78074388215A5E0900711B57 /* s2U.png */; };
+		7807438C215A5E0900711B57 /* test.png in Resources */ = {isa = PBXBuildFile; fileRef = 78074389215A5E0900711B57 /* test.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +50,11 @@
 		61BB1BFCA9E844B3BA7F9A8D /* Pods-AwesomeExpandedTable_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AwesomeExpandedTable_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-AwesomeExpandedTable_Example/Pods-AwesomeExpandedTable_Example.release.xcconfig"; sourceTree = "<group>"; };
 		6FE9CCDB7236FD1B69BEDA7E /* Pods-AwesomeExpandedTable_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AwesomeExpandedTable_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AwesomeExpandedTable_Example/Pods-AwesomeExpandedTable_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		75CA6261B4E1DEBB7234A71C /* Pods_AwesomeExpandedTable_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AwesomeExpandedTable_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		78074383215A5A7400711B57 /* sU.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sU.png; sourceTree = "<group>"; };
+		78074384215A5A7400711B57 /* sD.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sD.png; sourceTree = "<group>"; };
+		78074387215A5E0900711B57 /* s2D.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = s2D.png; sourceTree = "<group>"; };
+		78074388215A5E0900711B57 /* s2U.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = s2U.png; sourceTree = "<group>"; };
+		78074389215A5E0900711B57 /* test.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = test.png; sourceTree = "<group>"; };
 		8B440420EEAD7B0E80AC8D34 /* Pods-AwesomeExpandedTable_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AwesomeExpandedTable_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AwesomeExpandedTable_Tests/Pods-AwesomeExpandedTable_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		B4FDF666CA23CAC6CC4E1A7C /* Pods_AwesomeExpandedTable_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AwesomeExpandedTable_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -113,7 +123,6 @@
 		607FACD21AFB9204008FA782 /* Example for AwesomeExpandedTable */ = {
 			isa = PBXGroup;
 			children = (
-				78894BFA2158E93E00D038D5 /* Expand Customize Extension */,
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
@@ -128,6 +137,11 @@
 		607FACD31AFB9204008FA782 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				78074387215A5E0900711B57 /* s2D.png */,
+				78074388215A5E0900711B57 /* s2U.png */,
+				78074389215A5E0900711B57 /* test.png */,
+				78074384215A5A7400711B57 /* sD.png */,
+				78074383215A5A7400711B57 /* sU.png */,
 				607FACD41AFB9204008FA782 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -158,13 +172,6 @@
 				3E56726B1B21CD1A6A553AA4 /* LICENSE */,
 			);
 			name = "Podspec Metadata";
-			sourceTree = "<group>";
-		};
-		78894BFA2158E93E00D038D5 /* Expand Customize Extension */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = "Expand Customize Extension";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -253,7 +260,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				78074386215A5A7400711B57 /* sD.png in Resources */,
 				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
+				78074385215A5A7400711B57 /* sU.png in Resources */,
+				7807438C215A5E0900711B57 /* test.png in Resources */,
+				7807438A215A5E0900711B57 /* s2D.png in Resources */,
+				7807438B215A5E0900711B57 /* s2U.png in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
 			);

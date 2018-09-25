@@ -30,7 +30,9 @@ open class ExpandTableView: UITableView, UITableViewDelegate, UITableViewDataSou
     public var arrowHidden = false
     public var isArrowLeft = false
     
-    public init(_ data:[String:Any], rowHeight:Int = 40, font:UIFont = UIFont.systemFont(ofSize: 14), textColor:UIColor = UIColor.black, hide:Bool = false, isArrowFromLeft:Bool = false) {
+    public var imageArrays:[UIImage] = []
+    
+    public init(_ data:[String:Any], rowHeight:Int = 40, font:UIFont = UIFont.systemFont(ofSize: 14), textColor:UIColor = UIColor.black, hide:Bool = false, isArrowFromLeft:Bool = false, imagesArray:[UIImage]) {
         super.init(frame: CGRect.zero, style: .plain)
         self.delegate = self
         self.dataSource = self
@@ -39,6 +41,7 @@ open class ExpandTableView: UITableView, UITableViewDelegate, UITableViewDataSou
         self.valueColor = textColor
         self.arrowHidden = hide
         self.isArrowLeft = isArrowFromLeft
+        self.imageArrays = imagesArray
         
         generateValues(data, model)
         self.register(ExpandTableCell.self, forCellReuseIdentifier: "cell")
@@ -90,11 +93,31 @@ open class ExpandTableView: UITableView, UITableViewDelegate, UITableViewDataSou
             cell.arrowImage.isHidden = true
         } else {
             cell.arrowImage.isHidden = model.children.count == 0
+            self.setupImageForCell(model, cell: cell)
         }
         
         cell.delegate = self
         
         return cell
+    }
+    
+    func setupImageForCell(_ model:ExpandModel, cell:ExpandTableCell) {
+        if self.imageArrays.count == 2 {
+            cell.arrowImage.image = (model.inclusive) ?  self.imageArrays[0] : self.imageArrays[1]
+        } else {
+            let frameworkBundle = Bundle(for: ExpandTableCell.self)
+            let image = UIImage(named: (model.inclusive) ? "up" : "down", in: frameworkBundle, compatibleWith: nil)
+            cell.arrowImage.image = image
+        }
+        if model.inclusive {
+            if let image = model.expandedImage {
+                cell.arrowImage.image = image
+            }
+        } else {
+            if let image = model.nonExpandedImage {
+                cell.arrowImage.image = image
+            }
+        }
     }
     
     public func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {

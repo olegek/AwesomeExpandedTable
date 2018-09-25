@@ -404,6 +404,38 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		0F01133E048344672CC3C8B7F24124BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 69BA1E87FF57147954F4000E8C786941 /* AwesomeExpandedTable.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AwesomeExpandedTable/AwesomeExpandedTable-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AwesomeExpandedTable/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AwesomeExpandedTable/AwesomeExpandedTable.modulemap";
+				PRODUCT_MODULE_NAME = AwesomeExpandedTable;
+				PRODUCT_NAME = AwesomeExpandedTable;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		2762DD8BD3DB2E3B32C30D8178B5BCA1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E834D27010FE70C73106B42ED39E03B2 /* Pods-AwesomeExpandedTable_Tests.debug.xcconfig */;
@@ -505,39 +537,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
-		};
-		702C6CAA898489D3F057D9352C84C995 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 69BA1E87FF57147954F4000E8C786941 /* AwesomeExpandedTable.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/AwesomeExpandedTable/AwesomeExpandedTable-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/AwesomeExpandedTable/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/AwesomeExpandedTable/AwesomeExpandedTable.modulemap";
-				PRODUCT_MODULE_NAME = AwesomeExpandedTable;
-				PRODUCT_NAME = AwesomeExpandedTable;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
 		};
 		8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -660,6 +659,39 @@
 			};
 			name = Release;
 		};
+		B8F243E8FC6716D84A8E2D586FBB6B4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 69BA1E87FF57147954F4000E8C786941 /* AwesomeExpandedTable.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AwesomeExpandedTable/AwesomeExpandedTable-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AwesomeExpandedTable/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AwesomeExpandedTable/AwesomeExpandedTable.modulemap";
+				PRODUCT_MODULE_NAME = AwesomeExpandedTable;
+				PRODUCT_NAME = AwesomeExpandedTable;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		CC539C87B3702592A5C8B74E376B8EA1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C94AE0E95DBCD6046DB7A2517A13F65B /* Pods-AwesomeExpandedTable_Example.release.xcconfig */;
@@ -695,38 +727,6 @@
 			};
 			name = Release;
 		};
-		E790F1EBE94460E7A47D66CA44ED7E05 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 69BA1E87FF57147954F4000E8C786941 /* AwesomeExpandedTable.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/AwesomeExpandedTable/AwesomeExpandedTable-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/AwesomeExpandedTable/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/AwesomeExpandedTable/AwesomeExpandedTable.modulemap";
-				PRODUCT_MODULE_NAME = AwesomeExpandedTable;
-				PRODUCT_NAME = AwesomeExpandedTable;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -751,8 +751,8 @@
 		A91FB1304AE0A3833EC68647257791E8 /* Build configuration list for PBXNativeTarget "AwesomeExpandedTable" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E790F1EBE94460E7A47D66CA44ED7E05 /* Debug */,
-				702C6CAA898489D3F057D9352C84C995 /* Release */,
+				0F01133E048344672CC3C8B7F24124BB /* Debug */,
+				B8F243E8FC6716D84A8E2D586FBB6B4E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

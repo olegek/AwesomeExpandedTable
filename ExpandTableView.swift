@@ -20,10 +20,26 @@ open class ExpandTableView: UITableView, UITableViewDelegate, UITableViewDataSou
     
     public var categories:[String:Any] = [:]
     
-    public init(_ data:[String:Any]) {
+    // customizing value
+    
+    public var heightRow = 40
+    
+    public var valueFont = UIFont.systemFont(ofSize: 14)
+    public var valueColor = UIColor.black
+    
+    public var arrowHidden = false
+    public var isArrowLeft = false
+    
+    public init(_ data:[String:Any], rowHeight:Int = 40, font:UIFont = UIFont.systemFont(ofSize: 14), textColor:UIColor = UIColor.black, hide:Bool = false, isArrowFromLeft:Bool = false) {
         super.init(frame: CGRect.zero, style: .plain)
         self.delegate = self
         self.dataSource = self
+        self.heightRow = rowHeight
+        self.valueFont = font
+        self.valueColor = textColor
+        self.arrowHidden = hide
+        self.isArrowLeft = isArrowFromLeft
+        
         generateValues(data, model)
         self.register(ExpandTableCell.self, forCellReuseIdentifier: "cell")
     }
@@ -57,16 +73,27 @@ open class ExpandTableView: UITableView, UITableViewDelegate, UITableViewDataSou
     }
     
     public func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        return 40
+        return CGFloat(self.heightRow)
     }
     
     public func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let model = self.model.flattenElements()[indexPath.row + 1]
-        let cell = ExpandTableCell(style: UITableViewCell.CellStyle.default, reuseIdentifier: "cell", lev: model.getLevels() , expand: (model.inclusive), isSel: (model.isSelected))
+        let cell = ExpandTableCell(style: UITableViewCell.CellStyle.default, reuseIdentifier: "cell", lev: model.getLevels() , expand: (model.inclusive), isSel: (model.isSelected), leftSide:self.isArrowLeft)
         cell.valueLabel.text = model.value
+        
+        cell.valueLabel.font = self.valueFont
+        cell.valueLabel.textColor = self.valueColor
+        
         cell.model = model
-        cell.arrowImage.isHidden = model.children.count == 0
+        
+        if self.arrowHidden {
+            cell.arrowImage.isHidden = true
+        } else {
+            cell.arrowImage.isHidden = model.children.count == 0
+        }
+        
         cell.delegate = self
+        
         return cell
     }
     

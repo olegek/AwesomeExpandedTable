@@ -50,7 +50,7 @@ class ViewController: UIViewController, ExpandTableViewDelegate {
     }
     
     func addTableView() {
-        let table = ExpandTableView(generateTestValue())
+        let table = ExpandTableView.init(generateTestValue(), rowHeight: 60, font: UIFont.systemFont(ofSize: 16), textColor: .red, hide: false, isArrowFromLeft: true)
         self.view.addSubview(table)
         table.translatesAutoresizingMaskIntoConstraints = false
         table.topAnchor.constraint(equalTo: self.view.topAnchor, constant: 0).isActive = true

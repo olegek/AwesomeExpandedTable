@@ -25,7 +25,7 @@ open class ExpandTableCell: UITableViewCell {
     open var expanded = false
     open var isSelectedCell = false
     
-    init(style: UITableViewCell.CellStyle, reuseIdentifier: String?, lev:Int, expand:Bool, isSel:Bool) {
+    init(style: UITableViewCell.CellStyle, reuseIdentifier: String?, lev:Int, expand:Bool, isSel:Bool, leftSide:Bool) {
         super.init(style: style, reuseIdentifier: reuseIdentifier)
         self.level = lev
         self.expanded = expand
@@ -37,14 +37,18 @@ open class ExpandTableCell: UITableViewCell {
         valueLabel.topAnchor.constraint(equalTo: self.contentView.topAnchor, constant: 0).isActive = true
         valueLabel.bottomAnchor.constraint(equalTo: self.contentView.bottomAnchor, constant: 0).isActive = true
         valueLabel.rightAnchor.constraint(equalTo: self.contentView.rightAnchor, constant: -100).isActive = true
-        valueLabel.textColor = .black
         
         self.contentView.addSubview(arrowImage)
         arrowImage.translatesAutoresizingMaskIntoConstraints = false
         arrowImage.topAnchor.constraint(equalTo: self.contentView.topAnchor, constant: 0).isActive = true
         arrowImage.bottomAnchor.constraint(equalTo: self.contentView.bottomAnchor, constant: 0).isActive = true
-        arrowImage.rightAnchor.constraint(equalTo: self.contentView.rightAnchor, constant: -16).isActive = true
         arrowImage.widthAnchor.constraint(equalToConstant: 20).isActive = true
+        
+        if leftSide {
+            arrowImage.leftAnchor.constraint(equalTo: self.contentView.rightAnchor, constant: 16).isActive = true
+        } else {
+            arrowImage.rightAnchor.constraint(equalTo: self.contentView.rightAnchor, constant: -16).isActive = true
+        }
         
         let frameworkBundle = Bundle(for: ExpandTableCell.self)
         let image = UIImage(named: self.expanded ? "up" : "down", in: frameworkBundle, compatibleWith: nil)
